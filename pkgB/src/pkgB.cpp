@@ -13,7 +13,7 @@ public:
 
 inline myclass const &get_myclass() {
     static myclass instance;
-    fprintf(stderr, "%p\n", &instance);
+    // fprintf(stderr, "%p\n", &instance);
     return instance;
 }
 
